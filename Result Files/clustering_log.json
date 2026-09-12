@@ -1,0 +1,20 @@
+{
+    "algorithm": "HDBSCAN + UMAP",
+    "umap_params": {
+        "n_neighbors": 12,
+        "min_dist": 0.05,
+        "n_components": 5,
+        "metric": "cosine",
+        "random_state": 42
+    },
+    "hdbscan_params": {
+        "min_cluster_size": 4,
+        "metric": "euclidean",
+        "cluster_selection_method": "eom"
+    },
+    "evaluation_metrics": {
+        "silhouette_score": 0.54420006275177,
+        "total_clusters": 18,
+        "noise_points": 49
+    }
+}

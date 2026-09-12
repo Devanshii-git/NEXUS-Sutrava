@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "title": "Software Requirements Specification",
+    "generated_at": "2026-09-07T00:26:00.818863",
+    "total_requirements": 7,
+    "total_clusters": 7
+  },
+  "requirement_groups": [
+    {
+      "group_id": "REQ-001",
+      "group_name": "Load Login Page",
+      "priority": "HIGH",
+      "summary": "As an admin, I urgently need the login page to load under 2 seconds.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Load Login Page' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: HIGH.",
+      "requirements": [
+        {
+          "sentence": "As an admin, I urgently need the login page to load under 2 seconds.",
+          "confidence": 0.5535,
+          "priority": "HIGH",
+          "priority_score": 6,
+          "priority_reasons": [
+            "Elevated priority due to urgency keyword: 'urgent' (+3)",
+            "Contains critical time constraints: 'under 2 seconds' (+2)",
+            "High importance due to mandatory requirement ('need') (+1)",
+            "Demoted to MEDIUM by distribution guard (target ~30% HIGH)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": "admin",
+            "action": "load",
+            "feature": "login page",
+            "all_features": [
+              "login page"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "under 2 seconds"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "admin shall load login page under 2 seconds."
+          },
+          "entities": {
+            "actors": [
+              "admin"
+            ],
+            "actions": [
+              "load"
+            ],
+            "features": [
+              "login page"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "under 2 seconds"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-002",
+      "group_name": "Blocking Release And",
+      "priority": "MEDIUM",
+      "summary": "This is blocking the release and will cost us revenue.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Blocking Release And' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: MEDIUM.",
+      "requirements": [
+        {
+          "sentence": "This is blocking the release and will cost us revenue.",
+          "confidence": 0.5215,
+          "priority": "MEDIUM",
+          "priority_score": 4,
+          "priority_reasons": [
+            "High business value detected: 'revenue' (+3)",
+            "High importance due to mandatory requirement ('will') (+1)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": "blocking",
+            "feature": "release and",
+            "all_features": [
+              "release and",
+              "us revenue"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall blocking release and."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "blocking",
+              "cost"
+            ],
+            "features": [
+              "release and",
+              "us revenue"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-006",
+      "group_name": "Unresponsive During",
+      "priority": "MEDIUM",
+      "summary": "it is unresponsive during peak hours and customers are complaining.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Unresponsive During' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: MEDIUM.",
+      "requirements": [
+        {
+          "sentence": "it is unresponsive during peak hours and customers are complaining.",
+          "confidence": 0.5522,
+          "priority": "MEDIUM",
+          "priority_score": 8,
+          "priority_reasons": [
+            "User pain point identified showing negative sentiment: 'unresponsive' (+4)",
+            "High risk impact word detected: 'unresponsive' (+4)",
+            "Demoted to MEDIUM by distribution guard (target ~30% HIGH)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": "unresponsive during",
+            "all_features": [
+              "unresponsive during"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "peak hours"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall unresponsive during peak hours."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [
+              "unresponsive during"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "peak hours"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-003",
+      "group_name": "Cluster 3",
+      "priority": "LOW",
+      "summary": "minor tweak when you have time tbh.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Cluster 3' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW.",
+      "requirements": [
+        {
+          "sentence": "minor tweak when you have time tbh.",
+          "confidence": 0.5048,
+          "priority": "LOW",
+          "priority_score": -2,
+          "priority_reasons": [
+            "Cosmetic/minor classification: 'minor' (-2)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": null,
+            "all_features": [],
+            "quality_attribute": null,
+            "constraints": [
+              "when you"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall when you."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [],
+            "quality_attributes": [],
+            "constraints": [
+              "when you"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-004",
+      "group_name": "Encrypt The System",
+      "priority": "LOW",
+      "summary": "The system must encrypt user data at rest.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Encrypt The System' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW.",
+      "requirements": [
+        {
+          "sentence": "The system must encrypt user data at rest.",
+          "confidence": 0.6419,
+          "priority": "LOW",
+          "priority_score": 1,
+          "priority_reasons": [
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": "encrypt",
+            "feature": "system",
+            "all_features": [
+              "system"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall encrypt system."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "encrypt"
+            ],
+            "features": [
+              "The system"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-005",
+      "group_name": "Dashboard",
+      "priority": "LOW",
+      "summary": "can we make the dashboard load faster?",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Dashboard' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW.",
+      "requirements": [
+        {
+          "sentence": "can we make the dashboard load faster?",
+          "confidence": 0.5028,
+          "priority": "LOW",
+          "priority_score": 0,
+          "priority_reasons": [
+            "No priority signals detected"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": "make",
+            "feature": "dashboard",
+            "all_features": [
+              "dashboard",
+              "load faster"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall make dashboard."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "make"
+            ],
+            "features": [
+              "dashboard",
+              "load faster"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-007",
+      "group_name": "Add Dark",
+      "priority": "LOW",
+      "summary": "Add dark mode to the settings panel.",
+      "silhouette_score": 0.0,
+      "explanation": "Cluster 'Add Dark' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW.",
+      "requirements": [
+        {
+          "sentence": "Add dark mode to the settings panel.",
+          "confidence": 0.5599,
+          "priority": "LOW",
+          "priority_score": 0,
+          "priority_reasons": [
+            "No priority signals detected"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": "Add dark",
+            "all_features": [
+              "Add dark"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall Add dark."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [
+              "Add dark"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    }
+  ]
+}
