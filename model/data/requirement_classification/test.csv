@@ -1,21 +1,101 @@
 sentence,label
-"The system shall send a confirmation email after registration.",1
-"Hope you are doing well.",0
-"Users must be able to change their profile picture.",1
-"See the attached meeting minutes.",0
-"The platform should support dark mode.",1
-"Can we reschedule the call?",0
-"API responses must include pagination metadata.",1
-"Happy birthday!",0
-"The application must validate email format on signup.",1
-"I will be late today.",0
-"Users should be able to bookmark favorite items.",1
-"Please share the drive link.",0
-"The system must generate monthly usage reports.",1
-"Let's discuss this offline.",0
-"Password complexity rules must be enforced.",1
-"The printer is out of paper.",0
-"The system should support bulk data import via CSV.",1
-"Anyone up for coffee?",0
-"Real-time collaboration features must be available in the editor.",1
-"Reminder to submit your hours.",0
+The system shall send a confirmation email after registration.,1
+Hope you are doing well.,0
+Users must be able to change their profile picture.,1
+See the attached meeting minutes.,0
+The platform should support dark mode.,1
+Can we reschedule the call?,0
+API responses must include pagination metadata.,1
+Happy birthday!,0
+The application must validate email format on signup.,1
+I will be late today.,0
+Users should be able to bookmark favorite items.,1
+Please share the drive link.,0
+The system must generate monthly usage reports.,1
+Let's discuss this offline.,0
+Password complexity rules must be enforced.,1
+The printer is out of paper.,0
+The system should support bulk data import via CSV.,1
+Anyone up for coffee?,0
+Real-time collaboration features must be available in the editor.,1
+Reminder to submit your hours.,0
+Upgrade to Apache POM 28,1
+Scheduler should deal with array service pid,1
+Upgrade to OSGi R8,1
+Upgrade to ActiveMQ 5.17.3,1
+Some REST example features fail to install,1
+Upgrade to maven wagon 3.5.2,1
+Upgrade to Pax Logging 1.11.12,1
+Upgrade to equinox 3.17.100,1
+Add recursive folder / regex scanning in file collector,1
+Support JDK JAAS API migration ,1
+Upgrade to Pax Logging 1.11.15,1
+Upgrade to bndlib 6.3.1,1
+Upgrade to commons-lang3 3.14.0,1
+Apache karaf throwing message exception when it hits StringUtils.containsIgnoreCase in code( commons-lang3 jar),1
+Factory PIDs not working with static config admin,1
+camel 4 jms + pax,1
+Remove karaf.specs.*,1
+How to get any configuration within the job context of a org.apache.karaf.scheduler.Job,1
+Upgrade to jakarta.el-api 3.0.3,1
+Upgrade to Pax Web 8.0.30,1
+"Update Pax Transx, Pax JMS and Pax JDBC",1
+Upgrade to Felix SCR 2.2.12,1
+Upgrade to Spring 5.3.6,1
+Upgrade sling-commons-johnzon to 1.2.14,1
+Upgrade to Pax URL 2.6.16,1
+Upgrade to CXF 3.6.5,1
+Add support for JDK 20,1
+Upgrade to easymock 4.3,1
+Upgrade to Felix WebConsole 4.7.0,1
+Upgrade to lucene 8.11.1,1
+Add JDK20 packages in etc/jre.properties,1
+Unable to consume from Kafka topic using Karaf 4.3.1 with Camel 3.7.4,1
+Upgrade to Felix WebConsole 4.8.2,1
+Upgrade to orientdb-client 3.2.15,1
+Upgrade to org.osgi.util.promise 1.3.0,1
+Upgrade to exec-maven-plugin 3.0.0,1
+Test and example of JSON configuration,1
+Upgrade to modello-maven-plugin 2.0.0,1
+HawtIO-offline feature shows error in Terminal window,1
+Use maven-invoker-plugin version from Apache POM,1
+Hope you are having a great day.,0
+When is the next meeting?,0
+Can we talk about this tomorrow?,0
+I will be on vacation next week.,0
+Did you see my email?,0
+Let's sync up later.,0
+The weather is nice today.,0
+I need a coffee break.,0
+Can someone review my PR?,0
+I just pushed the code.,0
+Thanks for the help!,0
+Good morning team.,0
+See you at the all-hands.,0
+Is the server down?,0
+I can't log in.,0
+Happy Friday!,0
+Have a good weekend.,0
+I am looking into it.,0
+Please find attached the report.,0
+What time is the demo?,0
+Who is the owner of this repo?,0
+I will fix the typo.,0
+Just approved the changes.,0
+Can we delay the release?,0
+The build is broken.,0
+I am getting a weird error.,0
+Let's revert the commit.,0
+Can you share your screen?,0
+I am stepping away for a minute.,0
+Back online.,0
+Did the tests pass?,0
+I am running late.,0
+Traffic was terrible today.,0
+Can we order pizza?,0
+I will send a calendar invite.,0
+Please update the wiki.,0
+I need you to build a new feature.,0
+We must do better next time.,0
+The system is so slow.,0
+You should support my ideas.,0
