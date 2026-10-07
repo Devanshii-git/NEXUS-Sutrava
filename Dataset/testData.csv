@@ -1,0 +1,11 @@
+requirement_sentence
+The system shall provide the ability to record the user ID and date of all updates to the problem or diagnosis list
+The user ID and date or time stamp shall be recorded when the allergies reviewed option is selected
+The system shall provide the ability to cosign a note and record the date and time of signature
+The system shall provide the ability to record that patient specific instructions or educational material were provided to the patient
+The system shall provide the ability to record user ID and date or time stamp for all referral related events
+The system shall allow authorized users to update the directory
+The system shall provide the ability to generate hardcopy and electronic output by date possibly and possibly date range
+The system shall provide the ability to export structured data which removes those identifiers listed in the HIPAA definition of a limited dataset
+This export on hardcopy and electronic output shall leave the actual PHI data unmodified in the original record
+The system shall provide the ability to create hardcopy and electronic report summary information (procedures  medications  labs  immunizations  allergies  and vital signs)
